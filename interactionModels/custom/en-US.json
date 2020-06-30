@@ -1,0 +1,54 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "dad jokes",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "GetDadJokeIntent",
+          "slots": [],
+          "samples": [
+            "what\u0027s the joke of the day",
+            "what\u0027s the dad joke of the day",
+            "dad joke",
+            "joke",
+            "say a joke",
+            "say a dad joke",
+            "tell me a dad joke",
+            "tell me a joke"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "4"
+}
